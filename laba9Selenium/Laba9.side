@@ -1,0 +1,121 @@
+{
+  "id": "a3c6437f-5374-4d00-b62f-74ef5f8002fd",
+  "version": "1.1",
+  "name": "Laba9",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "e64d8902-1700-4c9a-a8a2-eca542c7aaf4",
+    "name": "test1",
+    "commands": [{
+      "id": "a9b095e2-bf13-4c11-af5c-036f9b90e033",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c521795-6d81-461b-8901-69658b3a5fdf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51609027-06e1-433b-9caf-d81f19e9cc09",
+      "comment": "3.1622",
+      "command": "type",
+      "target": "id=v1",
+      "targets": [
+        ["id=v1", "id"],
+        ["name=v1", "name"],
+        ["css=#v1", "css"],
+        ["css=#v1", "css:finder"],
+        ["xpath=//input[@id='v1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "af83a645-8ec4-4a82-957d-6bc92d378a60",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e9f3971-5c39-4452-9ceb-d0c580c2878d",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "id=inpt",
+      "targets": [],
+      "value": "3.16"
+    }]
+  }, {
+    "id": "2a4d5968-745b-4758-8453-a64b562531ae",
+    "name": "test2",
+    "commands": [{
+      "id": "2c4952fe-b50f-4327-ad29-b08efab47eec",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3d54894-164d-4424-94fd-7eb65c57ffe9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x654",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3eb8d4e2-5df4-49dc-852e-1abb86978879",
+      "comment": "",
+      "command": "type",
+      "target": "id=v1",
+      "targets": [
+        ["id=v1", "id"],
+        ["name=v1", "name"],
+        ["css=#v1", "css"],
+        ["css=#v1", "css:finder"],
+        ["xpath=//input[@id='v1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "c3e5f62e-6e03-443e-9113-b8b60c4f4f2d",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8488b6a7-a561-4e58-ac94-c16ae0cca830",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=inpt",
+      "targets": [],
+      "value": "0.00"
+    }]
+  }],
+  "suites": [{
+    "id": "c7031516-1712-4309-a2e0-4aaa5c1838f8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}

@@ -1,0 +1,42 @@
+Started GET "/calc/view.json?v1=7" for 127.0.0.1 at 2018-12-27 20:29:59 +0300
+Processing by CalcController#view as JSON
+  Parameters: {"v1"=>"7"}
+Completed 200 OK in 1233ms (Views: 1.1ms)
+
+
+Started GET "/calc/view.json?v1=8" for 127.0.0.1 at 2018-12-27 20:30:11 +0300
+Processing by CalcController#view as JSON
+  Parameters: {"v1"=>"8"}
+Completed 200 OK in 43ms (Views: 0.6ms)
+
+
+Started GET "/calc/view.json?v1=10" for 127.0.0.1 at 2018-12-27 20:30:15 +0300
+Processing by CalcController#view as JSON
+  Parameters: {"v1"=>"10"}
+Completed 200 OK in 2ms (Views: 0.4ms)
+
+
+Started GET "/calc/view.json?v1=10" for 127.0.0.1 at 2018-12-28 00:09:08 +0300
+Processing by CalcController#view as JSON
+  Parameters: {"v1"=>"10"}
+Completed 200 OK in 1237ms (Views: 1.0ms)
+
+
+Started GET "/calc/view.json?v1=0" for 127.0.0.1 at 2018-12-28 00:09:19 +0300
+Processing by CalcController#view as JSON
+  Parameters: {"v1"=>"0"}
+Completed 200 OK in 3ms (Views: 0.4ms)
+
+
+Started GET "/calc/view.json?v1=1234" for 127.0.0.1 at 2019-01-02 14:11:20 +0300
+Processing by CalcController#view as JSON
+  Parameters: {"v1"=>"1234"}
+Completed 200 OK in 1462ms (Views: 0.9ms)
+
+
+Started GET "/calc/view.json?v1=2025" for 127.0.0.1 at 2019-01-02 14:11:31 +0300
+Processing by CalcController#view as JSON
+  Parameters: {"v1"=>"2025"}
+Completed 200 OK in 4ms (Views: 1.0ms)
+
+
